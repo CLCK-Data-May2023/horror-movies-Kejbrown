@@ -4,6 +4,6 @@ name AS Movie_Title,
 imdb_rating AS Rating, 
 year
 FROM "movies"
-WHERE genre = ‘horror’ and year <= 1985 
+WHERE genre = "horror" and year <= 1985 
 ORDER BY imdb_rating DESC
 LIMIT 3;
